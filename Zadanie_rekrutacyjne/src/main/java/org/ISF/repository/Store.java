@@ -1,18 +1,19 @@
 package org.ISF.repository;
 
 import java.time.LocalTime;
+import java.util.List;
 
 public class Store {
-    private String pickers;
+    private List<String> pickers;
     private LocalTime pickingStartTime;
     private LocalTime pickingEndTime;
 
 
-    public String getPickers() {
+    public List<String> getPickers() {
         return pickers;
     }
 
-    public void setPickers(String pickers) {
+    public void setPickers(List<String> pickers) {
         this.pickers = pickers;
     }
 
